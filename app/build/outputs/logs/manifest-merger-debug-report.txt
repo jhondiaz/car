@@ -1,0 +1,272 @@
+-- Merging decision tree log ---
+provider#com.webnet.car_meteorologia.Utils.GenericFileProvider
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:70:9-78:20
+	android:grantUriPermissions
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:74:13-47
+	android:authorities
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:72:13-64
+	android:exported
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:71:13-54
+manifest
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\df22dca50afd52c6fba91e01e76cffe1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\276572f259ac6fd38dee28bc78ad2766\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\23a17c080325d7c406636ca6860c5450\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\10af3f9ede8611db68abb5b48547b6c9\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\24b760c43c181fcf1324840defd739fa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.microsoft.azure.android:azure-storage-android:2.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5cbe04541331542296dd084ed247a31d\AndroidManifest.xml:11:1-20:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ba4268e07c581f6e635800b26283e377\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\482fb7c0f648d3478bfba8d051800371\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5e3beca18a4d05ad8d06a2403aca3bb9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\459e565116ccc5ecf940fa23681d22c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\22a4f2ff386fa0d30fdc5d955f2707d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\0ba93bf79905315b91ccda4aa8c93bf1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\9f462ca1df89d9a787e39e67c98927f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\26ec9a13323e0df8b4cb74e07b06dc2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\2bf6669bb6ccb76260110f2dd5829c32\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\8f4dfd8e1512bf9244cbfc1a7f5e93f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c77a28ff1f11ce8b8227e654bf9b2b7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\64bc590818945999c5c4306d766c09b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\f5bf94aa1e035572bcdaf74c904fcd5a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4f76a0253e837067dc7fe6b8e97c2f62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4fea0ef700bab7d0cb9c82d4567ee4a4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c6f58ca99ff7788c69d5f30be3d664b9\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ba14a8b254fd9af70dc85552b8f29595\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c708a370b57eb2860e8749890da57075\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\71f0dc9e6880816235fb35561a678a51\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\05b9cc4a4c5f1563dc32c459dc08ddd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\f0393950ee75ec80b9df4034748c9f26\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\6972041b9c6225a4b942c56929a97e49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\32cc1580f4b1472cce2c8345928885c3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ca7b16327cb42aab148dfd9d5538cb03\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\b7bf0db2d6ec1d6b7d472b901be1ba8b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\2c9a36ab035e98e092eff065d3f3c37e\AndroidManifest.xml:17:1-22:12
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+	package
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:6:9-47
+permission#com.webnet.car_meteorologia.android.maps.permission.MAPS_RECEIVE
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:9:5-11:47
+	android:protectionLevel
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:11:9-44
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:10:9-88
+uses-permission#android.permission.WAKE_LOCK
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#com.webnet.car_meteorologia.android.maps.permission.MAPS_RECEIVE
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:14:5-104
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:14:22-101
+uses-permission#android.permission.INTERNET
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.microsoft.azure.android:azure-storage-android:2.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5cbe04541331542296dd084ed247a31d\AndroidManifest.xml:18:5-67
+MERGED from [com.microsoft.azure.android:azure-storage-android:2.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5cbe04541331542296dd084ed247a31d\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:20:22-77
+application
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:22:5-80:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\276572f259ac6fd38dee28bc78ad2766\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\276572f259ac6fd38dee28bc78ad2766\AndroidManifest.xml:9:5-20
+MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\10af3f9ede8611db68abb5b48547b6c9\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\10af3f9ede8611db68abb5b48547b6c9\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4fea0ef700bab7d0cb9c82d4567ee4a4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4fea0ef700bab7d0cb9c82d4567ee4a4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c6f58ca99ff7788c69d5f30be3d664b9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c6f58ca99ff7788c69d5f30be3d664b9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4fea0ef700bab7d0cb9c82d4567ee4a4\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:25:9-41
+	android:roundIcon
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:26:9-47
+	android:icon
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:24:9-42
+	android:allowBackup
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:29:9-40
+	android:usesCleartextTraffic
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:28:9-44
+activity#com.webnet.car_meteorologia.activitys.ViewPdfActivity
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:34:9-72
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:34:19-60
+service#com.webnet.car_meteorologia.services.ServicioEnviarData
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:36:9-39:39
+	android:enabled
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:37:13-56
+service#com.webnet.car_meteorologia.services.ApiController
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:41:13-51
+activity#com.webnet.car_meteorologia.views.diligenciarFormato.DiligenciarFormatoActivity
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:44:9-89
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:44:19-86
+activity#com.webnet.car_meteorologia.activitys.FormatosActivity
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:45:9-64
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:45:19-61
+activity#com.webnet.car_meteorologia.activitys.LoginActivity
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:56:9-63:20
+	android:windowSoftInputMode
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:57:13-54
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:56:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:58:13-62:29
+action#android.intent.action.MAIN
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:61:27-74
+activity#com.webnet.car_meteorologia.activitys.MainActivity
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:64:9-60
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:64:19-57
+receiver#com.webnet.car_meteorologia.services.AlarmReceiver
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:66:9-60
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:66:19-57
+uses-sdk
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\df22dca50afd52c6fba91e01e76cffe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\df22dca50afd52c6fba91e01e76cffe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\276572f259ac6fd38dee28bc78ad2766\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\276572f259ac6fd38dee28bc78ad2766\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\23a17c080325d7c406636ca6860c5450\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\23a17c080325d7c406636ca6860c5450\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\10af3f9ede8611db68abb5b48547b6c9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\10af3f9ede8611db68abb5b48547b6c9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\24b760c43c181fcf1324840defd739fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\24b760c43c181fcf1324840defd739fa\AndroidManifest.xml:20:5-44
+MERGED from [com.microsoft.azure.android:azure-storage-android:2.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5cbe04541331542296dd084ed247a31d\AndroidManifest.xml:14:38-16:41
+MERGED from [com.microsoft.azure.android:azure-storage-android:2.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5cbe04541331542296dd084ed247a31d\AndroidManifest.xml:14:38-16:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ba4268e07c581f6e635800b26283e377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ba4268e07c581f6e635800b26283e377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\482fb7c0f648d3478bfba8d051800371\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\482fb7c0f648d3478bfba8d051800371\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5e3beca18a4d05ad8d06a2403aca3bb9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\5e3beca18a4d05ad8d06a2403aca3bb9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\459e565116ccc5ecf940fa23681d22c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\459e565116ccc5ecf940fa23681d22c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\22a4f2ff386fa0d30fdc5d955f2707d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\22a4f2ff386fa0d30fdc5d955f2707d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\0ba93bf79905315b91ccda4aa8c93bf1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\0ba93bf79905315b91ccda4aa8c93bf1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\9f462ca1df89d9a787e39e67c98927f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\9f462ca1df89d9a787e39e67c98927f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\26ec9a13323e0df8b4cb74e07b06dc2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\26ec9a13323e0df8b4cb74e07b06dc2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\2bf6669bb6ccb76260110f2dd5829c32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\2bf6669bb6ccb76260110f2dd5829c32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\8f4dfd8e1512bf9244cbfc1a7f5e93f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\8f4dfd8e1512bf9244cbfc1a7f5e93f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c77a28ff1f11ce8b8227e654bf9b2b7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c77a28ff1f11ce8b8227e654bf9b2b7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\64bc590818945999c5c4306d766c09b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\64bc590818945999c5c4306d766c09b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\f5bf94aa1e035572bcdaf74c904fcd5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\f5bf94aa1e035572bcdaf74c904fcd5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4f76a0253e837067dc7fe6b8e97c2f62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4f76a0253e837067dc7fe6b8e97c2f62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4fea0ef700bab7d0cb9c82d4567ee4a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\4fea0ef700bab7d0cb9c82d4567ee4a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c6f58ca99ff7788c69d5f30be3d664b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c6f58ca99ff7788c69d5f30be3d664b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ba14a8b254fd9af70dc85552b8f29595\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ba14a8b254fd9af70dc85552b8f29595\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c708a370b57eb2860e8749890da57075\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\c708a370b57eb2860e8749890da57075\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\71f0dc9e6880816235fb35561a678a51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\71f0dc9e6880816235fb35561a678a51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\05b9cc4a4c5f1563dc32c459dc08ddd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\05b9cc4a4c5f1563dc32c459dc08ddd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\f0393950ee75ec80b9df4034748c9f26\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\f0393950ee75ec80b9df4034748c9f26\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\6972041b9c6225a4b942c56929a97e49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\6972041b9c6225a4b942c56929a97e49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\32cc1580f4b1472cce2c8345928885c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\32cc1580f4b1472cce2c8345928885c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ca7b16327cb42aab148dfd9d5538cb03\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\ca7b16327cb42aab148dfd9d5538cb03\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\b7bf0db2d6ec1d6b7d472b901be1ba8b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\b7bf0db2d6ec1d6b7d472b901be1ba8b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\2c9a36ab035e98e092eff065d3f3c37e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Developers\.gradle\caches\transforms-2\files-2.1\2c9a36ab035e98e092eff065d3f3c37e\AndroidManifest.xml:20:5-44
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:75:13-77:57
+	android:resource
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:77:17-55
+	android:name
+		ADDED from G:\Proyectos ANDROID\Skg\CAR_meteorologia-20211202T163337Z-001\CAR_meteorologia\app\src\main\AndroidManifest.xml:76:17-67

@@ -1,0 +1,4 @@
+#Thu Aug 08 11:55:41 COT 2019
+base.0=/Volumes/Informacion/TRABAJO/Proyectos_android/CAR_meteorologia/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex

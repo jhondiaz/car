@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".activitys.LoginActivity">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="80sp"
+                android:orientation="vertical"
+                android:paddingLeft="30sp"
+                android:paddingRight="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="170sp"
+                    android:layout_height="120sp"
+                    android:layout_marginBottom="40sp"
+                    android:src="@drawable/logo_car_blanco"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="@color/colorBlanco"
+                    android:text="Identificaciòn"
+                    />
+
+                <EditText
+                    android:id="@+id/txtIdentificacion"
+                    android:inputType="number"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="@color/colorBlanco"
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp" />
+
+                <Button
+                    android:layout_marginTop="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/btnIngresar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="30sp"
+                    android:fontFamily="@font/font_car"
+                    android:background="@drawable/boton_tema"
+                    android:textColor="#ffffff"
+                    android:text="Ingresar"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5sp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="@color/colorBlanco"
+                    android:text="Version"
+                    />
+
+                <TextView
+                    android:id="@+id/lblVersion"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="@color/colorBlanco"
+                    android:text="--"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

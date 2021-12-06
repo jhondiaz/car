@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".views.diligenciarFormato.DiligenciarFormatoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_above="@+id/divBotonesInf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="30sp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/frgRoot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/fondo_barra_superior"
+                android:layout_width="match_parent"
+                android:layout_height="100sp">
+
+                <TextView
+                    android:id="@+id/lblFormato"
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="60sp"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/font_car"
+                    android:text=""/>
+
+                <ImageView
+                    android:id="@+id/imgAdd"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:src="@mipmap/ic_add"
+                    android:layout_marginTop="6sp"
+                    android:layout_marginRight="6sp"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/divBotonesInf"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:padding="0sp"
+            android:layout_height="80sp">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:clickable="true"
+                android:onClick="onBtnSoporte"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="65sp"
+                    android:layout_height="55sp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_btn_soporte"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soporte"
+                    android:textColor="#3B8030"
+                    android:fontFamily="@font/font_car"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:clickable="true"
+                android:onClick="onBtnManual"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="65sp"
+                    android:layout_height="55sp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_btn_manual"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manual"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="#3B8030"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:clickable="true"
+                android:onClick="onBtnAjustes"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="65sp"
+                    android:layout_height="55sp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_btn_configuracion"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ajustes"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="#3B8030"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

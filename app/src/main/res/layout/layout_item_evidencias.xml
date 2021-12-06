@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/thumbnail_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dp" >
+    <ImageView
+        android:id="@+id/imgEvi"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY" />
+</RelativeLayout>

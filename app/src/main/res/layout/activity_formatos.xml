@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".activitys.FormatosActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_above="@+id/divBotonesInf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="@drawable/fondo_barra_superior_blanco"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80sp">
+
+                <TextView
+                    android:layout_marginTop="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:text=""/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="16sp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="130sp"
+                    android:layout_height="80sp"
+                    android:layout_marginTop="60sp"
+                    android:layout_marginBottom="5sp"
+                    android:src="@drawable/logo_car_blanco"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/lblEstacion"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_car"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10sp"
+                    android:textColor="#ffffff"
+                    android:text=""/>
+
+                <ScrollView
+                    android:fillViewport="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <GridLayout
+                            android:id="@+id/gridFormatos"
+                            android:layout_centerInParent="true"
+                            android:columnCount="2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </GridLayout>
+
+                    </RelativeLayout>
+
+
+
+                </ScrollView>
+
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/divBotonesInf"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:padding="5sp"
+            android:layout_height="100sp">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:clickable="true"
+                android:onClick="onBtnSoporte"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="65sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_soporte_blanco"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soporte"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/font_car"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:clickable="true"
+                android:onClick="onBtnManual"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="65sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_manual_blanco"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manual"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:clickable="true"
+                android:onClick="onBtnAjustes"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="65sp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_config_blanco"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ajustes"
+                    android:fontFamily="@font/font_car"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
